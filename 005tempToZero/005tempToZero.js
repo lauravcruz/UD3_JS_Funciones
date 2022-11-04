@@ -18,7 +18,7 @@ function temporizador(s, m = 0) {
     console.log(s);
     s--;
     if (s == 0) {
-      //Salimos cuando llegue a 0
+      //Paramos el intervalo con esta condición
       clearInterval(milsec);
     }
   }, 1000);
